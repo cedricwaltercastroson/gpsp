@@ -935,7 +935,7 @@ u32 menu(u16 *original_screen)
 
   void menu_load()
   {
-    u8 *file_ext[] = { ".gba", ".bin", ".zip", NULL };
+    u8 *file_ext[] = { ".gba", NULL };
     u8 load_filename[512];
     save_game_config_file();
     if(load_file(file_ext, load_filename) != -1)
