@@ -25,7 +25,7 @@ EXTRA_TARGETS   = EBOOT.PBP
 BUILD_PRX       = 1
 ENCRYPT         = 1
 
-LIBS            += ${shell ${PSPDEV}/bin/sdl-config --libs} -lpsppower \
+LIBS            += ${shell ${PSPDEV}/bin/sdl-config --libs} -lpspirkeyb -lpsppower \
 		  -lz
 
 include ${PSPSDK}/lib/build.mak
